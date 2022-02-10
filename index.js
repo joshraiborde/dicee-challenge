@@ -8,7 +8,7 @@ document.querySelector(".dice .img1").setAttribute("src", images1);
 document.querySelector(".dice .img2").setAttribute("src", images2);
 
 if (randomNumber1 === randomNumber2) {
-    document.querySelector("h1").textContent = "Draw! Click To Refresh";
+    document.querySelector("h1").innerHTML = "Draw! Click To Refresh";
 } else if (randomNumber1 > randomNumber2) {
     document.querySelector("h1").innerHTML = "Player 1 Wins! Click To Refresh";
 } else {
